@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essential Git Commands</title>
+    <link rel="stylesheet" href="technical-documentation.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Essential Git Commands</header>
+      <ul>
+        <li>
+          <a class="nav-link" href="#introduction">Introduction</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#prerequisites">Prerequisites</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#git_init">git init</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#git_clone">git clone</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#git_status">git status</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#git_add">git add</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#git_commit">git commit</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#git_push">git push</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#git_pull">git pull</a>
+        </li>
+         <li>
+          <a class="nav-link" href="#additional_resources">Additional Resources</a>
+        </li>
+         <li>
+          <a class="nav-link" href="#important_notes">Important Notes</a>
+        </li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section id="introduction" class="main-section">
+        <header>Introduction</header>
+        <article>
+          <p>Git is a powerful version control system that enables you to track changes to your code, collaborate with others, and revert to previous versions when needed. This guide will introduce you to the fundamental Git commands to get you started.</p>
+        </article>
+      </section>
+      <section id="prerequisites" class="main-section">
+        <header>Prerequisites</header>
+        <article>
+          <p>You should have Git installed on your system. If not, download it from the official <a href="https://git-scm.com/downloads">website</a></p>
+        </article>
+      </section>
+      <section id="git_init" class="main-section">
+        <header>git init</header>
+        <article>
+          <p>Initializes a new Git repository in the current directory.</p>
+          <code>git init</code>
+        </article>
+      </section>
+      <section id="git_clone" class="main-section">
+        <header>git clone</header>
+        <article>
+          <p>Creates a local copy of an existing remote repository.</p>
+          <code>git clone https://github.com/user/my-project.git</code>
+        </article>
+      </section>
+      <section id="git_status" class="main-section">
+        <header>git status</header>
+        <article>
+          <p>Shows the status of the current working directory (new files, changes, files ready to be committed).</p>
+          <code>git status</code>
+        </article>
+      </section>    
+      <section id="git_add" class="main-section">
+        <header>git add</header>
+        <article>
+          <p>Adds changes to the staging area in preparation for a commit.</p>
+          <code>git add index.html</code>
+          <p>(add a single file)</p>
+          <code>git add .</code>
+          <p>(add all changes)</p>
+        </article>
+      </section>
+      <section id="git_commit" class="main-section">
+        <header>git commit</header>
+        <article>
+          <p>Records staged changes with a descriptive message.</p>
+          <code>git commit -m "Updated feature description"</code>
+        </article>
+      </section>
+      <section id="git_push" class="main-section">
+        <header>git push</header>
+        <article>
+          <p>Sends local commits to the remote repository.</p>
+          <code>git push origin master </code>
+          <p>(pushes to branch 'master')</p>
+        </article>
+      </section> 
+      <section id="git_pull" class="main-section">
+        <header>git pull</header>
+        <article>
+          <p>Fetches updates from the remote repository and merges them into your local branch.</p>
+          <code>git pull origin master</code>
+        </article>
+      </section>
+      <section id="additional_resources" class="main-section">
+        <header>Additional Resources</header>
+        <article>
+          <li>Git Documentation: https://git-scm.com/docs</li>
+          <li>Interactive Git Tutorial: https://www.atlassian.com/git/tutorials</li>
+        </article>
+      </section> 
+      <section id="important_notes" class="main-section">
+        <header>Important Notes</header>
+        <article>
+          <li>Before making changes, ensure you're on the correct branch.</li>
+          <li>Commit frequently with clear and concise commit messages.</li>
+          <li>Resolve any merge conflicts that might occur during a git pull.</li>
+        </article>
+      </section> 
+    </main>
+  </body>
+</html>
