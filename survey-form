@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+  <body>
+    <h1 id="title">Pizza Place Survey Form</h1>
+    <p id="description">Please fill out this form with the required information</p>
+    <form id="survey-form">
+      <fieldset>
+        <legend>Enter your information</legend>
+        <label for="name" id="name-label">Enter your name:
+          <input id="name" name="name" type="text" required placeholder="Bob Dylan"/>
+          </label>
+        <label for="email" id="email-label">Enter your email:
+          <input id="email" name="email" type="email" required placeholder="bobdylan@something.com"/>
+          </label>
+        <label for="number" id="number-label">Enter your age:
+          <input id="number" name="number" type="number" min=13 max=99 placeholder="7"/>
+          </label>
+          <label for="dropdown" id="survey-form">Do you like pizza?
+          <select id="dropdown" name="dropdown">
+            <option value="1">Yes</option>
+            <option value="2">No</option>
+            </label>
+            </select>
+      </fieldset>
+      <fieldset>
+        <legend>Would you recommend this pizza place?</legend>
+          <label for="definitely" id="survey-form"><input id="definitely" type="radio" name="group" value="definitely"> Definitely</label>
+          <label for="maybe"><input id="maybe" type="radio" name="group" value="maybe"> Maybe</label>
+          <label for="no"><input id="no" type="radio" name="group" value="no"> No</label>
+        </fieldset>
+      <fieldset>
+        <legend>What would you like to see improved?</legend>
+        <label for="checkbox" id="survey-form">
+          <input id="ingredients" type="checkbox" name="group1" value="ingredients">The ingredients</label>
+          <input id="customer-service" type="checkbox" name="group1" value="customer-service">The customer service</label>
+          <input id="presentation" type="checkbox" name="group1" value="presentation">The presentation</label>
+          </label>
+        </fieldset>
+      <fieldset>
+        <legend>Any comments?</legend>
+        <label for="bio" id="survey-form">
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like pizza."></textarea>
+        </label>
+      </fieldset>
+      <input type="submit" value="Submit" id="submit" />
+    </form>
+  </body>
+</html>
