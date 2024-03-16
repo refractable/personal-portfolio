@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0px;
+  line-height: 1.6;
+  background-color: #faf6e9;
+}
+
+#page-wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 100px; 
+}
+
+#header { 
+  display: flex;
+  position: fixed;
+  top: 0; 
+  left: 0;
+  width: 100%;
+  background-color: #ece8d9; 
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+  z-index: 100; 
+}  
+
+.logo {
+  display: flex;       
+  align-items: center;  
+}
+img {
+  max-width: 15%;
+}
+
+@media (max-width: 650px) {
+  nav {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+  }
+  nav li {
+    padding-bottom: 5px;
+  }
+}
+
+#nav-bar ul {
+  list-style: none; 
+  padding: 0;
+}
+
+#nav-bar li {
+ display: inline-block; 
+ margin-right: 20px; 
+}
+
+.nav-link {
+  text-decoration: none; 
+  color: #333; 
+}
+
+#hero {
+  text-align: center;
+  background-color: #fffdf6;
+  padding: 30px;
+  margin-bottom: 10px;
+}
+
+#why-choose-us p {
+  margin-bottom: 15px; 
+}
+
+#video {
+  display: block;
+  margin: 20px auto
+}
+
+#sizes, #order { 
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background-color: #494949;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#testimonials p { 
+  background-color: #f8f8f8;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
