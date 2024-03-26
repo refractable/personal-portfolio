@@ -4,11 +4,17 @@ body {
     background-color: #f0f0f5;
     color: #efecec;
     box-sizing: border-box;
+    transition: background-color 0.5s ease;
 }
 
 a {
     color: #9acfd5;
     text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #77b6c0;
 }
 
 header#navbar {
@@ -52,7 +58,14 @@ section {
      box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
      border-radius: 5px;
      padding: 20px; 
+     transition: all 0.3s ease;
  }
+
+.project-tile:hover {
+  transform: scale(1.02);
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+}
+
 @media (max-width: 600px) {
     #navbar li {
         display: block;
