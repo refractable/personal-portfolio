@@ -1,18 +1,18 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background-color: #363434;
+    background-color: #f0f0f5;
     color: #efecec;
     box-sizing: border-box;
 }
 
 a {
-    color: #62929a;
+    color: #9acfd5;
     text-decoration: none;
 }
 
 header#navbar {
-    background-color: #142d4c;
+    background-color: #203a4c;
     position: fixed;
     top: 0;
     width: 100%;
